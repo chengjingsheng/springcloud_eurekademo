@@ -1,0 +1,30 @@
+
+#server:
+#  port: 8000
+#spring:
+#  application:
+#    name: app-itmayiedu-member
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8100/eureka
+#    register-with-eureka: true
+#    fetch-registry: true
+
+
+server:
+  port: 8000
+spring:
+  application:
+    name: app-itmayiedu-member
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8100/eureka
+###集群地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka,http://localhost:8200/eureka
+    register-with-eureka: true
+    fetch-registry: true
