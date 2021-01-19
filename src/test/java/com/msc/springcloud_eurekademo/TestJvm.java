@@ -20,7 +20,7 @@ public class TestJvm {
             test2.instance = test1;
             test1 = null;
             test2 = null;
-            // 强制JVM进行垃圾回收
+            // 寮哄埗JVM杩涜鍨冨溇鍥炴敹
             System.gc();
 
     }
