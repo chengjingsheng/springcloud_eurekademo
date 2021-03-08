@@ -1,4 +1,4 @@
-package com.msc.springcloud_eurekademo;
+package springcloud_eurekademo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
